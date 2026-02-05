@@ -3,6 +3,7 @@
 This project implements a text classification pipeline using Recurrent Neural Networks (RNN) in PyTorch. Beyond standard model training, the core focus is an empirical study of how different hidden state aggregation methods (pooling strategies) impact final classification performance.
 
 Key Features
+
 Architecture: Dynamic RNN-based model designed to handle variable-length sequences.
 
 Pooling Strategies Comparison: Two distinct approaches were implemented and evaluated to transform RNN hidden states into a fixed-length feature vector:
